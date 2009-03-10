@@ -32,6 +32,13 @@ Rackup Script:
 
 
 Thanks for using naked_rack! Hope everyone has a safe and happy CSS Naked Day.
+
+hr.
+
+Developed by:
+
+  @joefiorini (irc: faithfulgeek)
+
 == Copyright
 
 Copyright (c) 2009 faithfulgeek. See LICENSE for details.
