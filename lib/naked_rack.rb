@@ -14,15 +14,20 @@ class NakedRack
     status, headers, response = @app.call(env)
     body = ''
     response.each do |str|
-      body = remove_link_tags(str).to_html
-      body = remove_style_tags(body).to_html
-      body = remove_js_tags(body).to_html if @options[:remove_js]
+      body << remove_all_tags(str)
     end
     headers['Content-Length'] = body.length.to_s
     [status, headers, body]
   end
 
 private
+
+  def remove_all_tags body
+    body = remove_link_tags(body).to_html
+    body = remove_style_tags(body).to_html
+    body = remove_js_tags(body).to_html if @options[:remove_js]
+    body
+  end
 
   def remove_link_tags body
     remove_tags body, "//link[@rel='stylesheet']"
