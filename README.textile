@@ -1,0 +1,37 @@
+h1. naked_rack
+
+CSS Naked Day is fast approaching. Is your site ready? By installing the @naked_rack@ middleware, your site will show its true colors on April 9th, 2009. For those who dare, use the @:remove_js => true@ option to prove your strength.
+
+h2. CSS Naked Day? wtf?
+
+CSS Naked Day is a day for web designers and developers to show off how hard they've worked to keep their site's semantically marked up and styled solely through CSS. Any well designed site should be usable even after losing its styles. CSS Naked Day is a day to prove that theory.
+
+For more information on CSS Naked Day please see http://naked.dustindiaz.com/.
+
+h2. Options
+
+@naked_rack@ supports the following options:
+
+  @:display_banner => [true]|false@ - This will replace all stylesheet tags with an HTML comment advertising CSS Naked Day (not to mention giving itself some love)
+  @:remove_js => true|[false]@ - Also take out any @script@ tags. Prove your unobtrusiveness with this option.
+  @:permanent => true|[false]@ - Ignores the date and puts the site in permanent naked mode. This is really meant to be used during testing, but make sure you turn it off!
+
+h2. Installation
+
+Rails (in @config/environment.rb@):
+
+  @config.middleware.use "NakedRack"[, options]@
+
+Sinatra:
+
+  @use NakedRack[, options]@
+
+Rackup Script:
+
+  @use NakedRack[, options]@
+
+
+Thanks for using naked_rack! Hope everyone has a safe and happy CSS Naked Day.
+== Copyright
+
+Copyright (c) 2009 faithfulgeek. See LICENSE for details.

@@ -5,7 +5,7 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "naked_rack"
-    gem.summary = %Q{TODO}
+    gem.summary = %Q{Gem to allow you to run your Rack-supported web app naked for CSS Naked Day on April 9th.}
     gem.email = "joe@faithfulgeek.org"
     gem.homepage = "http://github.com/faithfulgeek/naked_rack"
     gem.authors = ["faithfulgeek"]
