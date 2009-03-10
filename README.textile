@@ -13,7 +13,9 @@ h2. Options
 @naked_rack@ supports the following options:
 
 @:display_banner => [true]|false@ - This will replace all stylesheet tags with an HTML comment advertising CSS Naked Day (not to mention giving itself some love)
+
 @:remove_js => true|[false]@ - Also take out any @script@ tags. Prove your unobtrusiveness with this option.
+
 @:permanent => true|[false]@ - Ignores the date and puts the site in permanent naked mode. This is really meant to be used during testing, but make sure you turn it off!
 
 h2. Installation
