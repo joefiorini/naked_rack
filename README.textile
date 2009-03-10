@@ -37,8 +37,11 @@ Rackup Script:
 
   @use NakedRack[, options]@
 
+h2. Support
 
-Thanks for using naked_rack! Hope everyone has a safe and happy CSS Naked Day.
+Please let me know if you run into any problems using naked_rack. This is my first time writing Rack middleware and as such I would appreciate any input. You can reach me on twitter as @joefiorini, email joe at faithfulgeek dot org or message me here on GitHub.
+
+Thanks for using naked_rack! I wish everyone a safe and happy CSS Naked Day.
 
 Developed by:
 
