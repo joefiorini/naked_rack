@@ -20,6 +20,11 @@ h2. Options
 
 h2. Installation
 
+To install the library:
+
+  sudo gem install faithfulgeek-naked_rack
+
+
 Rails (in @config/environment.rb@):
 
   @config.middleware.use "NakedRack"[, options]@
