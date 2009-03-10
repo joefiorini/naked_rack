@@ -1,7 +1,0 @@
-= naked_rack
-
-Description goes here.
-
-== Copyright
-
-Copyright (c) 2009 faithfulgeek. See LICENSE for details.
